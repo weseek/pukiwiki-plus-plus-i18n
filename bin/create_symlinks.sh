@@ -6,11 +6,11 @@ basedir=`pwd`
 coredir=$basedir/engine/pukiwiki-plus-i18n
 if [ -e $coredir ]; then
 	cd $coredir/skin
-	if [ -e lightbox]; then
+	if [ -e lightbox ]; then
 		rm lightbox
 	fi
 	ln -s -f ../../lightbox/ lightbox
-	if [-e monobook]; then
+	if [ -e monobook ]; then
 		rm monobook
 	fi
 	ln -s -f ../../sonots_monobook_plus/skin/monobook/ monobook
