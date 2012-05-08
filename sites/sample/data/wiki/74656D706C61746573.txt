@@ -1,0 +1,11 @@
+#contentsx
+
+*関連ページ [#bb1d73f4]
+#lsx
+
+
+*テンプレートの説明 [#baa74d59]
+
+|succeeded/*|最上位のページと同名のテンプレートが存在すれば、その下のレベルのページ全てに適用される&br;ex:templates/succeeded/Worksは、Works下の全てのページに適用される|
+|nonSucceeded/*|最上位のページと同名のテンプレートが存在すれば、その子ページに適用される&br;ex: templates/nonSucceeded/Worksは、Works/page1には適用されるがWorks/page1/page2には適用されない|
+|all|すべてのページに適用される|

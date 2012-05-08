@@ -1,0 +1,62 @@
+&size(24){-> [[開発スタートアップ>./マニュアル類/開発スタートアップ]] <-};
+
+*ショートカット [#zfda76e4]
+#splitbody(style=background-color:#F8F8F8;border:solid 1px #CECECE;padding:10px;){{{
+
+#style(style=border:solid 1px #ABABAB;background-color:#DEDEDE;padding-left:10px;){{
+[[開発ドキュメント]]
+}}
+#lsx(prefix=./開発ドキュメント/,depth=1);
+
+#split
+
+#style(style=border:solid 1px #ABABAB;background-color:#DEDEDE;padding-left:10px;){{
+[[会議室]]
+}}
+#lsx(prefix=./会議室/,depth=1);
+
+#split
+
+#style(style=border:solid 1px #ABABAB;background-color:#DEDEDE;padding-left:10px;){{
+[[マニュアル類]]
+}}
+#lsx(prefix=./マニュアル類/,depth=1);
+
+#split
+
+#style(style=border:solid 1px #ABABAB;background-color:#DEDEDE;padding-left:10px;){{
+その他
+}}
+-empty
+
+}}}
+
+
+*関連ページ [#fe664314]
+#lsx(depth=1);
+
+
+
+
+*情報 [#o6b21935]
+#contentsx
+
+
+**基本 [#d2260d6a]
+#table_edit2{{
+|CENTER:|||c
+|用途|ソリューション||h
+|SCM|Mercurial||
+|SCM|Subversion||
+|CI|Jenkins||
+|ITS|Redmine||
+}}
+**稼動中システムURL [#l6562af6]
+
+**データベース [#x8c3f6e1]
+
+
+**各種メアド [#s5bd5df0]
+#table_edit2{{
+|アドレス|ユーザ名|パスワード|用途|h
+}}

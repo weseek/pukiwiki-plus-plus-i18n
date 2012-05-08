@@ -1,0 +1,24 @@
+***ナビゲーション [#od8a673c]
+#style(class=menubox){{
+-[[トップページ>FrontPage]]
+-[[整形ルール>FormatRule]]
+----
+-[[Subversion>]]
+-[[Redmine>]]
+}}
+
+***検索 [#o53ca7c8]
+#monobook_search
+
+***ツールボックス [#qa26ec95]
+#monobook_toolbox(new,rename,freeze,related,recent,list,help)
+
+#monobook_recent(30)
+***カウンタ [#c4b04fc4]
+#style(class=menubox){{
+-今日：&counter(today);
+-昨日：&counter(yesterday);
+-総計：&counter(total);
+}}
+
+[[MenuBar]]

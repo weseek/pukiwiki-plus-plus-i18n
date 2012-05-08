@@ -1,0 +1,3 @@
+(?:\:RenameLog|templates\/(?:all|nonSucceeded(?:\/Projects)?|succeeded))
+(?:F(?:ormatRule|rontPage)|InterWikiName|MenuBar|Recent(?:Changes|Deleted)|SandBox|templates)
+

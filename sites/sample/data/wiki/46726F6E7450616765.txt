@@ -1,0 +1,71 @@
+**お知らせ [#g36ba251]
+
+*ショートカット [#xe7f4665]
+
+#splitbody(style=background-color:#F5FAFF;border:solid 1px #CEDFF2;padding:10px;){{{
+
+#split(width=25%)
+#style(style=border:solid 1px #A3BFB1;background-color:#CEDFF2;padding-left:10px;){{
+[[開発ドキュメント]]
+}}
+#lsx(prefix=./開発ドキュメント/,depth=1);
+
+#split(width=25%)
+#style(style=border:solid 1px #A3BFB1;background-color:#CEDFF2;padding-left:10px;){{
+[[会議室]]
+}}
+#lsx(prefix=./会議室/,depth=1);
+
+#split(width=25%)
+#style(style=border:solid 1px #CCCCCC;background-color:#EFEFEF;padding-left:10px;){{
+[[マニュアル類]]
+}}
+#lsx(prefix=./マニュアル類/,depth=1);
+
+#split(width=25%)
+#style(style=border:solid 1px #CCCCCC;background-color:#EFEFEF;padding-left:10px;){{
+[[その他]]
+}}
+
+}}}
+
+#splitbody(style=background-color:#F5FAFF;border:solid 1px #CEDFF2;padding:10px;){{{
+
+#split(width=25%)
+#style(style=border:solid 1px #CCCCCC;background-color:#EFEFEF;padding-left:10px;){{
+empty
+}}
+
+#split(width=25%)
+#style(style=border:solid 1px #CCCCCC;background-color:#EFEFEF;padding-left:10px;){{
+empty
+}}
+
+
+#split(width=50%)
+#style(style=border:solid 1px #8E9FF2;background-color:#CEDFF2;padding-left:10px;){{
+最近人気のページTOP15
+}}
+#lsx(prefix=/,popular=recent,num=1:15,date,new,linkstr=basename)
+
+
+}}}
+
+
+*情報 [#bc75e346]
+#contentsx
+
+
+**基本 [#d2260d6a]
+|CENTER:||c
+|Subversion||
+|Redmine||
+**稼動中システムURL [#z15efd9c]
+
+**データベース [#m328609e]
+
+
+**各種メアド [#ga3a0c6a]
+#table_edit2{{
+|アドレス|ユーザ名|パスワード|用途|h
+}}
