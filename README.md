@@ -32,9 +32,13 @@ git submodule update</code>
 
 HOW TO DUPLICATE A SITE
 -----------------------
+1. Copy an existing site directory recursively.
+
+    cp sites/sample sites/new_wiki_name
+
 1. After `cd /path/to/PPP(contains README.md)`, do
 
-    <code>./bin/duplicate.sh sample new_wiki_name</code>
+    <code>./bin/setup_sitex.sh sample new_wiki_name</code>
 
     Now, you can access to new site : http://your.web.server/ppp/sites/new_wiki_name
 

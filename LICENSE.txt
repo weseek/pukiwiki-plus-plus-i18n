@@ -1,5 +1,0 @@
-Monobook ÉXÉLÉì for PukiWiki Plus! i18n
-http://lsx.sourceforge.jp/?Skin%2Fmonobook
-GNU General Public License, version 2
-
-
