@@ -1,7 +1,7 @@
-pukiwiki-plus-plus-i18n
-=======================
+PukiWiki Plus! Plus!(PPP)
+=========================
 
-**PukiWiki Plus! Plus!(PPP) = [pukiwiki-plus-i18n][pukiwikiplus] + multiple sites supports + sonots plugins and skins([Monobook skin for PukiWiki Plus!][monobook])**
+**pukiwiki-plus-plus-i18n = [pukiwiki-plus-i18n][pukiwikiplus] + multiple sites supports + sonots plugins and skins([Monobook skin for PukiWiki Plus!][monobook])**
 
 
 INTRODUCTION
