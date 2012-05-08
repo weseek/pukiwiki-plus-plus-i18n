@@ -12,7 +12,7 @@ It makes it easy to duplicate the sites, contains some useful sonots plugins, an
 
 INSTALLATION
 ------------
-After `cd /path/to/PPP(contains README.md)}`, do
+After `cd /path/to/PPP(contains README.md)`, do
 
     ./bin/create_symlinks.sh
 
@@ -21,7 +21,7 @@ And you can access to sample site : http://your.web.server/ppp/sites/sample
 
 HOW TO DUPLICATE A SITE
 -----------------------
-1. After `cd /path/to/PPP(contains README.md)}`, do
+1. After `cd /path/to/PPP(contains README.md)`, do
 
     ./bin/duplicate.sh sample new_wiki_name
 
@@ -30,6 +30,7 @@ Now, you can access to new site : http://your.web.server/ppp/sites/new_wiki_name
 2. edit files:
 
     sites/new_wiki_name/index.php
+    
     sites/new_wiki_name/data/*.usr.ini.php
 
 
