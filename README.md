@@ -1,10 +1,11 @@
 pukiwiki-plus-plus-i18n
 =======================
 
-INTRODUCTION
-------------
 **PukiWiki Plus! Plus!(PPP) = [pukiwiki-plus-i18n][pukiwikiplus] + multiple sites supports + sonots plugins and skins([Monobook skin for PukiWiki Plus!][monobook])**
 
+
+INTRODUCTION
+------------
 PukiWiki Plus! Plus!(PPP) is wrapping [PukiWiki Plus!][pukiwikiplus](as GIT submodule).<br />
 It makes it easy to duplicate the sites, contains some useful sonots plugins, and adopts the [Monobook skin for PukiWiki Plus!][monobook] : well-organized and easy to read.
 
