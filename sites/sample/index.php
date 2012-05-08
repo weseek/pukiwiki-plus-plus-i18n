@@ -26,7 +26,7 @@ error_reporting(E_ERROR | E_PARSE); // Avoid E_WARNING, E_NOTICE, etc
 // Directory definition
 // (Ended with a slash like '../path/to/pkwk/', or '')
 // define('SITE_HOME',     '../wiki-common/');
-define('SITE_HOME',	'../../engine/wiki-core/');
+define('SITE_HOME',	'../../engine/pukiwiki-plus-i18n/');
 // define('DATA_HOME',     '../../wiki-data/contents/');
 define('DATA_HOME',	'./data/');
 
