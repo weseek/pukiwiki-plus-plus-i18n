@@ -57,8 +57,8 @@ if [ -e $plugindir ]; then
 	ln -s -f ../../../sonots_monobook_plus/plugin/monobook_popular.inc.php monobook_popular.inc.php
 	ln -s -f ../../../sonots_monobook_plus/plugin/relink.inc.php relink.inc.php
 	ln -s -f ../../../sonots_monobook_plus/plugin/contentsx.inc.php contentsx.inc.php
-	ln -s -f ../../../sonots_plus/delete.inc.php delete.inc.php
-	ln -s -f ../../../sonots_plus/splitbody.inc.php splitbody.inc.php
+	ln -s -f ../../../sonots_plugin/delete.inc.php delete.inc.php
+	ln -s -f ../../../sonots_plugin/splitbody.inc.php splitbody.inc.php
 	ln -s -f ../../../table_edit2/table_edit2.inc.php table_edit2.inc.php
 else
 	echo "[ERROR] the directory '$plugindir' not found."
