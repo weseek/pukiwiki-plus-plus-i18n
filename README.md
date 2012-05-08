@@ -3,10 +3,7 @@ pukiwiki-plus-plus-i18n
 
 INTRODUCTION
 ------------
-**PukiWiki Plus! Plus!(PPP)
-= [pukiwiki-plus-i18n][pukiwikiplus]
-+ multiple sites supports
-+ sonots plugins and skins([Monobook skin for PukiWiki Plus!][monobook])**
+**PukiWiki Plus! Plus!(PPP) = [pukiwiki-plus-i18n][pukiwikiplus] + multiple sites supports + sonots plugins and skins([Monobook skin for PukiWiki Plus!][monobook])**
 
 PukiWiki Plus! Plus!(PPP) is wrapping [PukiWiki Plus!][pukiwikiplus](as GIT submodule).<br />
 It makes it easy to duplicate the sites, contains some useful sonots plugins, and adopts the [Monobook skin for PukiWiki Plus!][monobook] : well-organized and easy to read.
@@ -38,16 +35,16 @@ sites/new_wiki_name/data/*.usr.ini.php</code>
 
 LICENSE
 -------
-This project is no big deal though wrapping some incredible projects or files.
+This project is no big deal though wrapping some incredible projects or files.<br />
 I want to provide this project as PUBLIC-DOMAIN (do not know how the laws of Japan treats it).
 
-But some projects wrapped by this projects are displayed their license.
+But some projects wrapped by this projects are displayed their license.<br />
 Please follow them when you use this project not for personal use.
 
 
 HELP!
 -----
-I am aware that my English is poor.
+I am aware that my English is poor.<br />
 Please send me your fixed README.md or fork and request to pull.
 
 
