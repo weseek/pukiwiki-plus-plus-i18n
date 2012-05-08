@@ -1,12 +1,14 @@
 pukiwiki-plus-plus-i18n
 =======================
 
-[pukiwiki-plus-i18n][pukiwikiplus] + multiple sites supports + sonots plugins and skins([Monobook skin for PukiWiki Plus!][monobook])
-
-
 INTRODUCTION
 ------------
-PukiWiki Plus! Plus!(PPP) is wrapping [PukiWiki Plus!][pukiwikiplus](as GIT submodule).
+**PukiWiki Plus! Plus!(PPP)
+= [pukiwiki-plus-i18n][pukiwikiplus]
++ multiple sites supports
++ sonots plugins and skins([Monobook skin for PukiWiki Plus!][monobook])**
+
+PukiWiki Plus! Plus!(PPP) is wrapping [PukiWiki Plus!][pukiwikiplus](as GIT submodule).<br />
 It makes it easy to duplicate the sites, contains some useful sonots plugins, and adopts the [Monobook skin for PukiWiki Plus!][monobook] : well-organized and easy to read.
 
 
@@ -23,15 +25,15 @@ HOW TO DUPLICATE A SITE
 -----------------------
 1. After `cd /path/to/PPP(contains README.md)`, do
 
-    ./bin/duplicate.sh sample new_wiki_name
+    <code>./bin/duplicate.sh sample new_wiki_name</code>
 
-Now, you can access to new site : http://your.web.server/ppp/sites/new_wiki_name
+    Now, you can access to new site : http://your.web.server/ppp/sites/new_wiki_name
 
-2. edit files:
+2. edit files as you like:
 
-    sites/new_wiki_name/index.php
-    
-    sites/new_wiki_name/data/*.usr.ini.php
+    <code>sites/new_wiki_name/index.php
+sites/new_wiki_name/data/*.usr.ini.php</code>
+
 
 
 LICENSE
