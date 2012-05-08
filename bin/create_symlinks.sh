@@ -6,7 +6,13 @@ basedir=`pwd`
 coredir=$basedir/engine/pukiwiki-plus-i18n
 if [ -e $coredir ]; then
 	cd $coredir/skin
+	if [ -e lightbox]; then
+		rm lightbox
+	fi
 	ln -s -f ../../lightbox/ lightbox
+	if [-e monobook]; then
+		rm monobook
+	fi
 	ln -s -f ../../sonots_monobook_plus/skin/monobook/ monobook
 else
 	echo "[ERROR] the directory '$coredir' not found."
@@ -37,7 +43,6 @@ fi
 plugindir=$coredir/extend/plugin
 if [ -e $plugindir ]; then
 	cd $plugindir
-	ln -s -f ../../../sonots_monobook_plus/plugin/splitbody.inc.php splitbody.inc.php
 	ln -s -f ../../../sonots_monobook_plus/plugin/monobook_navigation.inc.php monobook_navigation.inc.php
 	ln -s -f ../../../sonots_monobook_plus/plugin/monobook_recent.inc.php monobook_recent.inc.php
 	ln -s -f ../../../sonots_monobook_plus/plugin/style.inc.php style.inc.php
@@ -49,11 +54,12 @@ if [ -e $plugindir ]; then
 	ln -s -f ../../../sonots_monobook_plus/plugin/monobook_getlink.inc.php monobook_getlink.inc.php
 	ln -s -f ../../../sonots_monobook_plus/plugin/tag.inc.php tag.inc.php
 	ln -s -f ../../../sonots_monobook_plus/plugin/revert.inc.php revert.inc.php
-	ln -s -f ../../../sonots_monobook_plus/plugin/table_edit2.inc.php table_edit2.inc.php
 	ln -s -f ../../../sonots_monobook_plus/plugin/monobook_popular.inc.php monobook_popular.inc.php
 	ln -s -f ../../../sonots_monobook_plus/plugin/relink.inc.php relink.inc.php
 	ln -s -f ../../../sonots_monobook_plus/plugin/contentsx.inc.php contentsx.inc.php
-	ln -s -f ../../../sonots_monobook_plus/plugin/delete.inc.php delete.inc.php
+	ln -s -f ../../../sonots_plus/delete.inc.php delete.inc.php
+	ln -s -f ../../../sonots_plus/splitbody.inc.php splitbody.inc.php
+	ln -s -f ../../../table_edit2/table_edit2.inc.php table_edit2.inc.php
 else
 	echo "[ERROR] the directory '$plugindir' not found."
 	exit -1

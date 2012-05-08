@@ -25,4 +25,16 @@ else
 	exit -1
 fi
 
+
+datadir=$sitedir/data
+if [ -e $datadir ]; then
+	cd $datadir
+	chmod 777 wiki diff backup cache counter
+	chmod 666 wiki/* diff/* backup/* cache/* counter/*
+else
+	echo "[ERROR] the directory '$datadir' not found."
+	exit -1
+fi
+
+
 echo "created."
