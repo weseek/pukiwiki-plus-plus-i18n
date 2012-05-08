@@ -1,0 +1,2 @@
+#AuthBasicProvider file external
+#AuthUserFile /path/to/.htpasswd

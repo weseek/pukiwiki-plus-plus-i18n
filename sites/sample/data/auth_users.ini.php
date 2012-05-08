@@ -1,4 +1,4 @@
 <?php
 $auth_users = array(
-	'foo' => array('{x-php-md5}1a1dc91c907325c69271ddf0c944bc72',2), );	// 'pass'
++	'admin' => array('{x-php-md5}21232f297a57a5a743894a0e4a801fc3',2), // md5('admin')
 ?>
