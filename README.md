@@ -18,14 +18,14 @@ INSTALLATION
 
 2. After `cd /path/to/PPP(contains README.md)`, do
 
-    git submodule init
-    git submodule update
+        git submodule init
+        git submodule update
 
     Now, [PukiWiki Plus!][pukiwikiplus] has cloned.
 
 3. Next, do
 
-    ./bin/create_symlinks.sh
+        ./bin/create_symlinks.sh
 
     And you can access to sample site : http://your.web.server/ppp/sites/sample
 
@@ -34,18 +34,18 @@ HOW TO DUPLICATE A SITE
 -----------------------
 1. Copy an existing site directory recursively.
 
-    cp -r sites/sample sites/new_wiki_name
+        cp -r sites/sample sites/new_wiki_name
 
 1. After `cd /path/to/PPP(contains README.md)`, do
 
-    ./bin/setup_site.sh sample new_wiki_name
+        ./bin/setup_site.sh sample new_wiki_name
 
     Now, you can access to new site : http://your.web.server/ppp/sites/new_wiki_name
 
 2. edit files as you like:
 
-    sites/new_wiki_name/index.php
-    sites/new_wiki_name/data/*.usr.ini.php
+        sites/new_wiki_name/index.php
+        sites/new_wiki_name/data/*.usr.ini.php
 
 
 
