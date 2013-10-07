@@ -109,7 +109,7 @@ function plugin_table_edit2_convert()
 	// open or close
 	if ($opt['table_mod'] != 'off' && $opt['edit'] != 'off') {
 		if ( isset($opt['csv']) ) $tei->csv_button($opt['csv']);
-		$head_button = $tei->open_close($opt['table_mod'],& $opt['edit']);
+		$head_button = $tei->open_close($opt['table_mod'],$opt['edit']);
 	}
 
 	$arg = preg_replace(array("[\\r|\\n]","[\\r]"), array("\n","\n"), $arg);
@@ -509,7 +509,8 @@ class TableEdit2Indicate
 		$this->page = $page;
 		$this->count = $count;
 	}
-	function open_close( $mode, $edit )
+	// see http://stackoverflow.com/questions/8971261/php-5-4-call-time-pass-by-reference-easy-fix-available
+	function open_close( $mode, &$edit )
 	{
 		$s_table_close = _('close');
 		$s_table_open  = _('open');
