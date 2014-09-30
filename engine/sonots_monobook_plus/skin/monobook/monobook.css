@@ -1018,3 +1018,5 @@ td.vote_td2 {
 	margin-bottom: 3em;
 }
 
+/* codehighlight */
+@import url("../css/code.css");
