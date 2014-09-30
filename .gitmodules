@@ -1,3 +1,3 @@
 [submodule "engine/pukiwiki-plus-i18n"]
 	path = engine/pukiwiki-plus-i18n
-	url = https://github.com/yuki-takei/pukiwiki-plus-i18n-for-ppp.git
+	url = https://github.com/weseek/pukiwiki-plus-i18n-for-ppp.git
