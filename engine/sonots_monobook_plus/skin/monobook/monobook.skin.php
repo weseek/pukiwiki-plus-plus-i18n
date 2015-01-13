@@ -126,6 +126,7 @@ if (isset($pkwk_dtd)) {
 <?php if ($side) echo ' <link rel="stylesheet" type="text/css" media="screen" href="' . SKIN_URI . 'monobook/monobook.threecolumn.css" />' . "\n" ?>
 <?php if ($use_lightbox) echo ' <link rel="stylesheet" type="text/css" media="screen" href="' . SKIN_URI . 'lightbox/css/lightbox.css" />' . "\n" ?>
  <link rel="stylesheet" type="text/css" media="print" href="<?php echo SKIN_URI ?>monobook/monobook.print.css" />
+ <link rel="stylesheet" type="text/css" media="print" href="<?php echo SKIN_URI ?>monobook/user_print.css" />
  <link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo $_LINK['rss'] ?>" />
  <script type="text/javascript">
  <!--
