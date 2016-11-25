@@ -38,7 +38,7 @@ HOW TO DUPLICATE A SITE
 
 1. After `cd /path/to/PPP(contains README.md)`, do
 
-        ./bin/setup_site.sh sample new_wiki_name
+        ./bin/setup_site.sh new_wiki_name
 
     Now, you can access to new site : http://your.web.server/ppp/sites/new_wiki_name
 
